@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285CB71BC9BA497C17FED029 /* Pods_DLW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A627F16721710C26AC1607E7 /* Pods_DLW.framework */; };
 		D072418D28E29A7C000A6B45 /* DLWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072418C28E29A7C000A6B45 /* DLWApp.swift */; };
 		D072418F28E29A7C000A6B45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072418E28E29A7C000A6B45 /* ContentView.swift */; };
 		D072419128E29A7E000A6B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072419028E29A7E000A6B45 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1226B23B1F6C6175AB795A0F /* Pods-DLW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLW.release.xcconfig"; path = "Target Support Files/Pods-DLW/Pods-DLW.release.xcconfig"; sourceTree = "<group>"; };
+		A627F16721710C26AC1607E7 /* Pods_DLW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80D9190509D49FCDDC0EE4B /* Pods-DLW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLW.debug.xcconfig"; path = "Target Support Files/Pods-DLW/Pods-DLW.debug.xcconfig"; sourceTree = "<group>"; };
 		D072418928E29A7C000A6B45 /* DLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072418C28E29A7C000A6B45 /* DLWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLWApp.swift; sourceTree = "<group>"; };
 		D072418E28E29A7C000A6B45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,17 +30,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285CB71BC9BA497C17FED029 /* Pods_DLW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2AF2EA213C1B2911E7A0EE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A627F16721710C26AC1607E7 /* Pods_DLW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D072418028E29A7C000A6B45 = {
 			isa = PBXGroup;
 			children = (
 				D072418B28E29A7C000A6B45 /* DLW */,
 				D072418A28E29A7C000A6B45 /* Products */,
+				D4483EA7D8241D30F586BADE /* Pods */,
+				A2AF2EA213C1B2911E7A0EE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D4483EA7D8241D30F586BADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A80D9190509D49FCDDC0EE4B /* Pods-DLW.debug.xcconfig */,
+				1226B23B1F6C6175AB795A0F /* Pods-DLW.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D072419728E29A7E000A6B45 /* Build configuration list for PBXNativeTarget "DLW" */;
 			buildPhases = (
+				F0E416DD93F753D0F0C2060B /* [CP] Check Pods Manifest.lock */,
 				D072418528E29A7C000A6B45 /* Sources */,
 				D072418628E29A7C000A6B45 /* Frameworks */,
 				D072418728E29A7C000A6B45 /* Resources */,
+				19275B040C0EC0F5DB926F51 /* [CP] Embed Pods Frameworks */,
+				48E1AA01A8867DFAA6CA9387 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -103,7 +131,7 @@
 				};
 			};
 			buildConfigurationList = D072418428E29A7C000A6B45 /* Build configuration list for PBXProject "DLW" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +139,9 @@
 				Base,
 			);
 			mainGroup = D072418028E29A7C000A6B45;
+			packageReferences = (
+				D072419A28E29BB0000A6B45 /* XCRemoteSwiftPackageReference "soto.git" */,
+			);
 			productRefGroup = D072418A28E29A7C000A6B45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +162,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19275B040C0EC0F5DB926F51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E1AA01A8867DFAA6CA9387 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DLW/Pods-DLW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E416DD93F753D0F0C2060B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DLW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D072418528E29A7C000A6B45 /* Sources */ = {
@@ -195,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +351,7 @@
 		};
 		D072419828E29A7E000A6B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80D9190509D49FCDDC0EE4B /* Pods-DLW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +381,7 @@
 		};
 		D072419928E29A7E000A6B45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1226B23B1F6C6175AB795A0F /* Pods-DLW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +431,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D072419A28E29BB0000A6B45 /* XCRemoteSwiftPackageReference "soto.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soto-project/soto.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D072418128E29A7C000A6B45 /* Project object */;
 }
