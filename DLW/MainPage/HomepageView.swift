@@ -13,7 +13,7 @@ struct HomepageView: View {
     @EnvironmentObject var authentication: Authentication
     
     
-    @State var index = 0
+    @State var index = 1
     
     @Namespace var name
     
@@ -26,7 +26,7 @@ struct HomepageView: View {
                         if index == 0 {
                             HStack {
                                 Text("EXPLORE")
-                                    .font(.system(size: 16))
+                                    .font(.system(size: 22))
                                     .fontWeight(.medium)
                                     .foregroundColor(Color("Black1"))
 //                                    .frame(width: UIScreen.main.bounds.width - 50, height: 19, alignment: .center)
@@ -74,7 +74,7 @@ struct HomepageView: View {
                         } else if index == 1 {
                             HStack {
                                 Text("PROFILE")
-                                    .font(.system(size: 16))
+                                    .font(.system(size: 22))
                                     .fontWeight(.medium)
                                     .foregroundColor(Color("Black1"))
 //                                    .frame(width: UIScreen.main.bounds.width - 50, height: 19, alignment: .center)
@@ -115,6 +115,30 @@ struct HomepageView: View {
                     HStack(spacing: 0) {
                         
                         Button(action: {
+
+                            withAnimation(.spring()) {
+                                index = 1
+                            }
+                            
+                        }) {
+                            VStack {
+                                ZStack{
+                                    Rectangle()
+                                        .fill(Color.black.opacity(0.04))
+                                        .frame(height: 4)
+                                    if index == 1 {
+                                        Rectangle()
+                                            .fill(Color("Blue1"))
+                                            .frame(height: 4)
+                                            .matchedGeometryEffect(id: "Tab", in: name)
+                                    }
+                                }.padding(.bottom)
+                                
+                                index == 1 ? Image("BlueProfile") : Image("BlackProfile")
+                            }
+                        }
+                        
+                        Button(action: {
                             
                             withAnimation(.spring()) {
                                 index = 0
@@ -138,29 +162,6 @@ struct HomepageView: View {
                             }
                         }
                         
-                        Button(action: {
-
-                            withAnimation(.spring()) {
-                                index = 1
-                            }
-                            
-                        }) {
-                            VStack {
-                                ZStack{
-                                    Rectangle()
-                                        .fill(Color.black.opacity(0.04))
-                                        .frame(height: 4)
-                                    if index == 1 {
-                                        Rectangle()
-                                            .fill(Color("Blue1"))
-                                            .frame(height: 4)
-                                            .matchedGeometryEffect(id: "Tab", in: name)
-                                    }
-                                }.padding(.bottom)
-                                
-                                index == 1 ? Image("BlueProfile") : Image("BlackProfile")
-                            }
-                        }
                     }
                 }
             }
