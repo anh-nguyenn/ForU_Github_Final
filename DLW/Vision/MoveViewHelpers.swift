@@ -8,14 +8,6 @@
 import Foundation
 import SwiftUI
 
-/**
- Creates a dictionary with the data needed for the summary page.
- 
- - Parameters:
-    - move: The move that data is needed from.
- 
- - Returns: A dictionary containing the exercise's side, total reps, total sets, completed sets, and completed reps.
- */
 func generateMoveData(move: Move) -> [String : Int]{
     let side: Int
     var totalSets: Int = move.totalSets
@@ -44,71 +36,31 @@ func generateMoveData(move: Move) -> [String : Int]{
     return data
 }
 
-/**
- Creates a view with the VAS scale images depending on the percentage of repetitions completed of a session.
- 
- - Returns: A view with the VAS scale image
- */
 func vasScaleImage() -> some View {
     let percentageCompleted : Float = Float(Move.finishedReps / Move.totalReps)
     let category : Int = percentageCompleted > 0.8 ? 1 : percentageCompleted > 0.6 ? 2 : percentageCompleted > 0.4 ? 3 : percentageCompleted > 0.2 ? 4 : 5
-    var image : Image
     var feedback : String = ""
     switch(category) {
     case 1:
-        image = Image("VAS-Laugh")
         feedback = "Great job! You have over 80% completed repetitions!"
     case 2:
-        image = Image("VAS-Smile")
         feedback = "Good job! You have over 60% completed repetitions!"
     case 3:
-        image = Image("VAS-Meh")
         feedback = "You have over 40% completed repetitions!"
     case 4:
-        image = Image("VAS-Frown")
         feedback = "You have less than 40% completed repetitions, try harder next time!"
     case 5:
-        image = Image("VAS-OpenFrown")
         feedback = "You have less than 20% completed repetitions, try harder next time!"
     default:
-        image = Image("VAS-Meh")
+        feedback = ""
     }
     
     let body: some View = VStack {
-        image
-            .resizable()
-            .frame(width: 100, height: 100)
-            .padding(.horizontal)
         Text(feedback)
             .font(.system(size: 16))
             .padding(.horizontal)
     }
         .padding(.horizontal)
-    return body
-}
-
-/**
- Adds an instructional overlay at the top of the screen over a `MoveView`
-
- - Parameters:
-    - text: Instruction to be displayed
-    - backgroundColor: Color of the Background
- 
- - Returns: A instructional overlay at the top of the screen
-*/
-
-func TopInstructionsView(text: String, backgroundColor: Color) -> some View {
-    let body: some View = ZStack {
-        VStack (alignment: .center) {
-            Text(text)
-                .padding([.bottom, .leading, .trailing])
-                .foregroundColor(.black)
-                .font(.largeTitle)
-                .background(backgroundColor)
-                .cornerRadius(10, corners: .allCorners)
-            Spacer()
-        }
-    }
     return body
 }
 
@@ -220,41 +172,6 @@ func BottomCountDownView(text: String, move: Move, remainingDuration:Float, rema
     return body
 }
 
-/**
- Adds an instructional overlay at the right side of the screen over a `MoveView`. Used for exercises that are conducted in landscape orientation.
-
- - Parameters:
-    - text: Instruction to be displayed
-    - backgroundColor: Color of the Background
- 
- - Returns: A instructional overlay at the top of the screen
-*/
-func LandscapeTopInstructionView(text: String, backgroundColor: Color) -> some View {
-    var body: some View {
-        GeometryReader { gp in
-          VStack {
-            Text(text)
-                  .frame(width: gp.size.height*0.8, height: gp.size.width*0.8)
-              .font(.largeTitle)
-              .background(backgroundColor)
-              .rotationEffect(Angle(degrees: 90))
-              .padding(.leading, 100)
-              .padding(.top, 50)
-          }
-          .frame(width: gp.size.width, height: gp.size.height)
-        }
-    }
-    return body
-}
-
-/**
- Adds an overlay containing the exercise GIF and a countdown before the exercise starts over a `MoveView`
- 
- - Parameters:
-    - move: The move which the view is created for
- 
- - Returns: An overlay which covers the whole screen containing the GIF and coundown
- */
 func PreMoveInstructonView(move: Move) -> some View {
     let body: some View = ZStack {
         Color.white.edgesIgnoringSafeArea(.all)
@@ -293,63 +210,6 @@ func HeaderView(move: Move) -> AnyView? {
     return nil
 }
 
-/**
-Adds an instructional countdown overlay at the top of the screen over a `MoveView`
-
- - Parameters:
-    - text: Instruction to be displayed
- */
-//func CountdownView(text: String, backgroundColor: Color, remainingDuration: Float) -> some View {
-//    let body: some View = ZStack {
-//        VStack (alignment: .center) {
-//            VStack {
-//                Text(text)
-//                Text(String(Int(remainingDuration)))
-//            }
-//            .foregroundColor(.black)
-//            .font(.system(size: 16))
-//            .background(backgroundColor)
-//            .cornerRadius(10, corners: .allCorners)
-//        }
-//    }
-//    return body
-//}
-
-/**
- Adds an instructional overlay at the right side of the screen over a `MoveView`. Used for exercises that are conducted in landscape orientation.
-
- - Parameters:
-    - text: Instruction to be displayed
-    - backgroundColor: Color of the Background
- 
- - Returns: A instructional overlay at the top of the screen
-*/
-func LandscapeCountdownView(text: String, backgroundColor: Color, remainingDuration: Float) -> some View {
-    var body: some View {
-        GeometryReader { gp in
-            VStack {
-                VStack {
-                    Text(text)
-                    Text(String(Int(remainingDuration)))
-                }
-                  .frame(width: gp.size.height*0.8, height: gp.size.width*0.6)
-                  .font(.largeTitle)
-                  .background(backgroundColor)
-                  .rotationEffect(Angle(degrees: 90))
-                  .padding(.leading, 100)
-                  .padding(.top, 50)
-          }
-          .frame(width: gp.size.width, height: gp.size.height)
-        }
-    }
-    return body
-}
-
-/// Resizes gif images of each exercise.
-/// - Parameters:
-///     - gif: UIImage to be resized
-///  - Returns:
-///     - UIImage of resized image
 func resizeAnimatedGif(gif: UIImage, width: Int, height: Int) -> UIImage {
     let image = gif
     let size = gif.size
@@ -387,24 +247,16 @@ func createAnimateArray(for name: String) -> [UIImage] {
     return images
 }
     
-/// Custom Rounded Corner Shape which can be used as a background
 struct RoundedCorner: Shape {
     var radius: CGFloat = .infinity
     var corners: UIRectCorner = .allCorners
     
-    /// Required method inherited from Shape that defines the return of the `RoundedCorner`
     func path(in rect: CGRect) -> Path {
         let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         return Path(path.cgPath)
     }
 }
 extension View {
-    
-    /// Custom Corner Radius styling
-    ///
-    /// - Parameters:
-    ///     - radius:  Radius of the corner
-    ///     - corners: List of corners to be rounded
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape(RoundedCorner(radius: radius, corners: corners))
     }

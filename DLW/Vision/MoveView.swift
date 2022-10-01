@@ -9,36 +9,24 @@ import SVGKit
 import SwiftUI
 import ConfettiSwiftUI
 
-/// A wrapper View for all the Views that are to be displayed in sequence
 struct MoveView: View {
 
-    /// A variable that causes the confetti to appear in the summary page when it is incremented.
     @State private var counter: Int = 0
     
-    /// An array of dictionaries for the data of each exercises in the exercise queue.
     @State private var moveData: [[String : Int]] = []
     
-    /// A flag to determine if the app is exiting from the `MoveView`
     @State private var exitFromMoveView: Bool = false
     
-    /// List of all Moves to be executed sorted by execution order
     private var moves: [DraggableMove] = []
     
     @Environment(\.presentationMode) var presentationMode
     
-    /// Index of the moves array to determine which exercise to execute.
     @State var currentMoveIndex: Int = 0
     
-    /// A flag to determine if the app should show the message to switch off silent mode.
     @State var showNotificationMessage: Bool = true
 
-    // Timer that is used to control the hands off control of the MoveView
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
-    /// Initialises the MoveView with the array of moves to be completed
-    ///
-    /// - Parameters
-    ///     - moves: The list of Moves to be executed
     init(moves: [DraggableMove]) {
         self.moves = moves
     }
@@ -189,25 +177,13 @@ struct MoveView: View {
     }
     
     
-    /// A view to show the summary of all the exercises completed at the end of the session.
     struct SummaryView: View {
-        
-        /// Index of the completedMoves array.
         @State var moveIndex: Int = 0
         
-        /// An array consisting of the completed moves in the session.
         private var completedMoves: [DraggableMove] = []
         
-        /// An array of dictionaries consisting of the data from the completed moves in the session.
         private var moveData: [[String: Int]] = []
         
-        /**
-         Initialises the SummaryView
-         
-         - Parameters:
-            - completedMoves: Array of completed moves
-            - moveData: Array of dictionaries consisting of data of completed moves
-         */
         init(moves: [DraggableMove], moveData: [[String : Int]]) {
             self.completedMoves = moves
             self.moveData = moveData
@@ -238,18 +214,6 @@ struct MoveView: View {
             }
         }
         
-        /**
-         Creates a row in the `SummaryView` for each exercise completed
-         
-         - Parameters:
-            - side: An integer value to determine the completed exercise's side
-            - totalReps: Total number of reps of the completed exercise
-            - completedReps: Number of reps completed for the completed exercise
-            - totalSets: Total number of sets of the completed exercise
-            - completedSets: Number of sets completed for the completed exercise
-         
-         - Returns: A row consisting of the data for the completed exercise
-         */
         func makeSummaryView(side: Int, totalReps: Int, completedReps: Int, totalSets: Int, completedSets: Int) -> some View {
             let sideText: String
             switch(side) {
@@ -330,26 +294,14 @@ struct MoveView: View {
                 }
             }
             return body
+            }
         }
         
-        }
-        
-    /// Resets the State Machines for all Moves in the list.
-    ///
-    /// - Parameters:
-    ///     - moves: List of Moves to be reset
     func resetAll(moves: [DraggableMove]) {
         for move in moves {
             move.move.resetStateMachine()
         }
     }
-    
-    /// Gets the scrolling Title Text.
-    ///
-    /// Right now this is mainly for debugging purposes to identify which Move is currently active.
-    ///
-    /// - Returns:
-    ///     -   Scrolling title to be displayed
     func getTitleText() -> String {
         if currentMoveIndex + 1 > moves.count {
             return "Move Completed!"
@@ -358,7 +310,6 @@ struct MoveView: View {
         }
     }
         
-    /// Runs all terminating functions relevant to the Move session.
     func didDismiss() {
         presentationMode.wrappedValue.dismiss()
         CameraService.terminate()
@@ -366,19 +317,12 @@ struct MoveView: View {
         UINavigationBar.appearance().backgroundColor = .white
     }
     
-    /// Sets the exerciseCompleted flag to true in all of the moves in the list.
-    ///
-    /// This is used to consider exercises that were left prematurely as completed as well.
-    ///
-    /// - Parameters:
-    ///     - moves: List of moves to consider complete
     func completeAllExercises(moves: [DraggableMove]) {
         for move in moves {
             move.move.getShared().exerciseCompleted = true
         }
     }
     
-    /// Checks if the current Move session is completed.
     func finished() -> Bool {
         return currentMoveIndex + 1 > moves.count
     }
@@ -388,48 +332,32 @@ struct MoveView: View {
         switch(id) {
         case BicepsFlexionModel().id:
             BicepsFlexionView()
-            
         case BandedRotationModel().id:
             BandedRotationView()
-        
         case PosteriorCapsuleStretchModel().id:
             PosteriorCapsuleStretchView()
-            
         case ExternalRotationWithResistanceBandModel().id:
             ExternalRotationWithResistanceBandView()
-            
         case InternalRotationWithResistanceBandModel().id:
             InternalRotationWithResistanceBandView()
-            
         case ShoulderAbductionModel().id:
             ShoulderAbductionView()
-            
         case ShoulderFlexionModel().id:
             ShoulderFlexionView()
-            
         case ShoulderExtensionModel().id:
             ShoulderExtensionView()
-            
         case ShoulderHorizontalAbductionModel().id:
             ShoulderHorizontalAbductionView()
-            
         case PosteriorCapsuleStretchModel().id:
             PosteriorCapsuleStretchView()
-            
         case ExternalRotationWithResistanceBandModel().id:
             ExternalRotationWithResistanceBandView()
-            
-            
-        // Knee Exercise
         case StandingKneeBendModel().id:
             StandingKneeBendView()
-
         case AssistedKneeFlexionModel().id:
             AssistedKneeFlexionView()
-            
         case AssistedKneeExtensionModel().id:
             AssistedKneeExtensionView()
-            
         default:
             PosteriorCapsuleStretchView()
         }

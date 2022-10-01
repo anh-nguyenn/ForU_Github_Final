@@ -115,4 +115,3 @@ public func cgPointsAreHorizontallySortedAscendingly(points: [CGPoint]) -> Bool 
     }
     return true
 }
-

@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import LocalAuthentication
 
 /// Saves the rememberPassword state variable even when app has been closed
 struct DefaultKeys {
@@ -154,12 +155,31 @@ struct SignInFormView : View {
             }
         }
         .padding()
-        .onAppear{
-            let defaults = UserDefaults.standard
-            if defaults.string(forKey: DefaultsKeys.isSignedIn) == "true"{
-                willMoveToNextScreen = true
-                userModel.signupSuccess = false
-                authentication.updateValidation(success: true)
+        .onAppear(perform: authenticateByFaceID)
+        
+    }
+    
+    func authenticateByFaceID()  {
+        let context = LAContext()
+        var error: NSError?
+        if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
+            let reason = "We need to access your face"
+            
+            context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason)
+            {success, authenticationError in DispatchQueue.main.async {
+                if success {
+                    let defaults = UserDefaults.standard
+                    if defaults.string(forKey: DefaultsKeys.isSignedIn) == "true"{
+                        print("Hello")
+                        willMoveToNextScreen = true
+                        userModel.signupSuccess = false
+                        authentication.updateValidation(success: true)
+                    }
+                    
+                } else {
+                    //
+                }
+            }
             }
         }
     }

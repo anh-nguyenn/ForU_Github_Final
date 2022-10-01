@@ -116,10 +116,6 @@
 		D01E201B28E7E6D5008D373F /* StandingKneeBendRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200628E7E6D4008D373F /* StandingKneeBendRepetitionClassifier.swift */; };
 		D01E201C28E7E6D5008D373F /* StandingKneeBendInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200728E7E6D4008D373F /* StandingKneeBendInPositionClassifier.swift */; };
 		D01E201D28E7E6D5008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200828E7E6D4008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift */; };
-		D01E202528E7EA3B008D373F /* PosteriorCapsuleStretch-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D01E202128E7EA3B008D373F /* PosteriorCapsuleStretch-4.png */; };
-		D01E202628E7EA3B008D373F /* PosteriorCapsuleStretch-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D01E202228E7EA3B008D373F /* PosteriorCapsuleStretch-1.png */; };
-		D01E202728E7EA3B008D373F /* PosteriorCapsuleStretch-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D01E202328E7EA3B008D373F /* PosteriorCapsuleStretch-3.png */; };
-		D01E202828E7EA3B008D373F /* PosteriorCapsuleStretch-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D01E202428E7EA3B008D373F /* PosteriorCapsuleStretch-2.png */; };
 		D01E202B28E7EA86008D373F /* KneeProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202A28E7EA86008D373F /* KneeProgramView.swift */; };
 		D01E202D28E7EA91008D373F /* KneeConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202C28E7EA91008D373F /* KneeConfirmView.swift */; };
 		D01E202F28E7EAE5008D373F /* KneeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202E28E7EAE5008D373F /* KneeListView.swift */; };
@@ -127,6 +123,11 @@
 		D01E203428E7EBF5008D373F /* ShoulderConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E203328E7EBF5008D373F /* ShoulderConfirmView.swift */; };
 		D01E203628E7EBFF008D373F /* ShoulderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E203528E7EBFF008D373F /* ShoulderListView.swift */; };
 		D01E203928E7EFA7008D373F /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D01E203828E7EFA7008D373F /* ConfettiSwiftUI */; };
+		D04F7B1028E8742600018A5D /* PosteriorCapsuleStretch-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0B28E8742500018A5D /* PosteriorCapsuleStretch-5.png */; };
+		D04F7B1128E8742600018A5D /* PosteriorCapsuleStretch-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0C28E8742600018A5D /* PosteriorCapsuleStretch-4.png */; };
+		D04F7B1228E8742600018A5D /* PosteriorCapsuleStretch-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0D28E8742600018A5D /* PosteriorCapsuleStretch-2.png */; };
+		D04F7B1328E8742600018A5D /* PosteriorCapsuleStretch-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0E28E8742600018A5D /* PosteriorCapsuleStretch-1.png */; };
+		D04F7B1428E8742600018A5D /* PosteriorCapsuleStretch-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0F28E8742600018A5D /* PosteriorCapsuleStretch-3.png */; };
 		D072418D28E29A7C000A6B45 /* DLWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072418C28E29A7C000A6B45 /* DLWApp.swift */; };
 		D072419128E29A7E000A6B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072419028E29A7E000A6B45 /* Assets.xcassets */; };
 		D072419428E29A7E000A6B45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072419328E29A7E000A6B45 /* Preview Assets.xcassets */; };
@@ -245,16 +246,17 @@
 		D01E200628E7E6D4008D373F /* StandingKneeBendRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionClassifier.swift; sourceTree = "<group>"; };
 		D01E200728E7E6D4008D373F /* StandingKneeBendInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendInPositionClassifier.swift; sourceTree = "<group>"; };
 		D01E200828E7E6D4008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E202128E7EA3B008D373F /* PosteriorCapsuleStretch-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-4.png"; sourceTree = "<group>"; };
-		D01E202228E7EA3B008D373F /* PosteriorCapsuleStretch-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-1.png"; sourceTree = "<group>"; };
-		D01E202328E7EA3B008D373F /* PosteriorCapsuleStretch-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-3.png"; sourceTree = "<group>"; };
-		D01E202428E7EA3B008D373F /* PosteriorCapsuleStretch-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-2.png"; sourceTree = "<group>"; };
 		D01E202A28E7EA86008D373F /* KneeProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeProgramView.swift; sourceTree = "<group>"; };
 		D01E202C28E7EA91008D373F /* KneeConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeConfirmView.swift; sourceTree = "<group>"; };
 		D01E202E28E7EAE5008D373F /* KneeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeListView.swift; sourceTree = "<group>"; };
 		D01E203128E7EBEE008D373F /* ShoulderProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderProgramView.swift; sourceTree = "<group>"; };
 		D01E203328E7EBF5008D373F /* ShoulderConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderConfirmView.swift; sourceTree = "<group>"; };
 		D01E203528E7EBFF008D373F /* ShoulderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderListView.swift; sourceTree = "<group>"; };
+		D04F7B0B28E8742500018A5D /* PosteriorCapsuleStretch-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-5.png"; sourceTree = "<group>"; };
+		D04F7B0C28E8742600018A5D /* PosteriorCapsuleStretch-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-4.png"; sourceTree = "<group>"; };
+		D04F7B0D28E8742600018A5D /* PosteriorCapsuleStretch-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-2.png"; sourceTree = "<group>"; };
+		D04F7B0E28E8742600018A5D /* PosteriorCapsuleStretch-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-1.png"; sourceTree = "<group>"; };
+		D04F7B0F28E8742600018A5D /* PosteriorCapsuleStretch-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-3.png"; sourceTree = "<group>"; };
 		D072418928E29A7C000A6B45 /* DLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072418C28E29A7C000A6B45 /* DLWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLWApp.swift; sourceTree = "<group>"; };
 		D072419028E29A7E000A6B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -641,10 +643,11 @@
 		D01E202028E7EA3B008D373F /* PosteriorCapsuleStretchGif */ = {
 			isa = PBXGroup;
 			children = (
-				D01E202228E7EA3B008D373F /* PosteriorCapsuleStretch-1.png */,
-				D01E202428E7EA3B008D373F /* PosteriorCapsuleStretch-2.png */,
-				D01E202328E7EA3B008D373F /* PosteriorCapsuleStretch-3.png */,
-				D01E202128E7EA3B008D373F /* PosteriorCapsuleStretch-4.png */,
+				D04F7B0E28E8742600018A5D /* PosteriorCapsuleStretch-1.png */,
+				D04F7B0D28E8742600018A5D /* PosteriorCapsuleStretch-2.png */,
+				D04F7B0F28E8742600018A5D /* PosteriorCapsuleStretch-3.png */,
+				D04F7B0C28E8742600018A5D /* PosteriorCapsuleStretch-4.png */,
+				D04F7B0B28E8742500018A5D /* PosteriorCapsuleStretch-5.png */,
 			);
 			path = PosteriorCapsuleStretchGif;
 			sourceTree = "<group>";
@@ -789,11 +792,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D072419428E29A7E000A6B45 /* Preview Assets.xcassets in Resources */,
-				D01E202528E7EA3B008D373F /* PosteriorCapsuleStretch-4.png in Resources */,
+				D04F7B1328E8742600018A5D /* PosteriorCapsuleStretch-1.png in Resources */,
+				D04F7B1228E8742600018A5D /* PosteriorCapsuleStretch-2.png in Resources */,
+				D04F7B1428E8742600018A5D /* PosteriorCapsuleStretch-3.png in Resources */,
+				D04F7B1028E8742600018A5D /* PosteriorCapsuleStretch-5.png in Resources */,
+				D04F7B1128E8742600018A5D /* PosteriorCapsuleStretch-4.png in Resources */,
 				D072419128E29A7E000A6B45 /* Assets.xcassets in Resources */,
-				D01E202628E7EA3B008D373F /* PosteriorCapsuleStretch-1.png in Resources */,
-				D01E202828E7EA3B008D373F /* PosteriorCapsuleStretch-2.png in Resources */,
-				D01E202728E7EA3B008D373F /* PosteriorCapsuleStretch-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1118,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = ForU;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to track your position for the various exercises.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please let me use your face id";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1148,6 +1153,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = ForU;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to track your position for the various exercises.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please let me use your face id";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

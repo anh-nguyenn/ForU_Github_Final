@@ -52,6 +52,7 @@ struct KneeCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
+                            .padding(.top, 30)
                     }.padding()
                     
                     Spacer()
@@ -101,6 +102,7 @@ struct ShoulderCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
+                            .padding(.top, 30)
                     }.padding()
                 }
             }
@@ -135,6 +137,7 @@ struct BackCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
+                            .padding(.top, 30)
                     }.padding()
                     
                     Spacer()

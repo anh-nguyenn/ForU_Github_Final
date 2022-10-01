@@ -12,13 +12,13 @@ class PosteriorCapsuleStretchModel: Move {
     static var sharedTimers: [Timer] = []
     
     /// Number of repetitions for the exercise
-    static public var repetitions: Int = 3
+    static public var repetitions: Int = 1
     
     /// The number of sets.
-    static public var sets: Int = 2
+    static public var sets: Int = 1
     
     /// The maximum duration of a repetition.
-    static public var repetitionDuration: Float = 15
+    static public var repetitionDuration: Float = 5
     
     /// Instance Variable - The count for the number of frames in the calibration state. Used to delay the calibration state.
     @Published var calibrationFrames: Int = 0

@@ -46,8 +46,8 @@ struct HomepageView: View {
                                 .buttonStyle(.bordered)
                                 .font(.system(size: 16))
                                 .cornerRadius(10)
-                            }.padding(.horizontal)
-                            
+                            }.padding(.horizontal, 10)
+
                             
                             Divider()
                                 .font(.system(size: 3))
@@ -94,7 +94,7 @@ struct HomepageView: View {
                                 .buttonStyle(.bordered)
                                 .font(.system(size: 16))
                                 .cornerRadius(10)
-                            }.padding(.horizontal)
+                            }.padding(.horizontal, 10)
                             
                             Divider()
                                 .font(.system(size: 3))
@@ -102,15 +102,6 @@ struct HomepageView: View {
                                 .foregroundColor(Color("Blue1"))
                             
                             ScrollView {
-                                VStack(alignment: .leading) {
-                                    Text("Profile")
-                                        .font(.system(size: 36))
-                                        .fontWeight(.bold)
-                                        .foregroundColor(Color("Black1"))
-                                        .frame(width: UIScreen.main.bounds.width - 50, height: 44, alignment: .leading)
-                                        .padding(.bottom, 5)
-                                }.padding()
-                                
                                 ProfileView()
                             }
                             
