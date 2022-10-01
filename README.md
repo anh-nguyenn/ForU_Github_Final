@@ -25,6 +25,7 @@ Prerequisite: A device run MacOS
 3. Open terminal navigate to the source code in your computer
 4. Install related library - pod install
 5. Open the project workspace
-6. Connect your iphone with your MacOS device by USBC-to-Lightning
-7. Build the app on your device
-8. Trust the device and run it
+6. Sign in with your apple developer account
+7. Connect your iphone with your MacOS device by USBC-to-Lightning
+8. Build the app on your device
+9. Trust the device and run it
