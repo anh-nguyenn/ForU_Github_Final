@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct DLWApp: App {
+    @StateObject var authentication = Authentication()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authentication.isValidated {
+                HomepageView()
+                    .environmentObject(authentication)
+            } else {
+                SignInView()
+                    .environmentObject(authentication)
+            }
         }
     }
 }

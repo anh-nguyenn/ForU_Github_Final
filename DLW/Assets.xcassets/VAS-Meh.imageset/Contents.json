@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "face-meh-regular.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

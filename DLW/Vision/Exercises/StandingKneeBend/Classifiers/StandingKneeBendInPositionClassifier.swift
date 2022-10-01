@@ -1,0 +1,44 @@
+import Foundation
+import Vision
+
+struct StandingKneeBendInPositionClassifier: Classifier {
+    static func check(observation: VNHumanBodyPoseObservation) -> Bool {
+        let standingKneeBendModel: StandingKneeBendModel = StandingKneeBendModel.shared
+        
+        let calibrationJoints: [VNHumanBodyPoseObservation.JointName]
+        
+        // joints must be captured
+        if standingKneeBendModel.side == .left || (standingKneeBendModel.currentSide == .left && standingKneeBendModel.side == .both) {
+            calibrationJoints = [
+                .rightHip,
+                .rightKnee,
+                .rightAnkle
+            ]
+        } else {
+            calibrationJoints = [
+                .leftHip,
+                .leftKnee,
+                .leftAnkle
+            ]
+        }
+        
+        var points: [VNHumanBodyPoseObservation.JointName : VNRecognizedPoint] = [:]
+        
+        for joint in calibrationJoints {
+            guard let point =
+                    try? observation.recognizedPoint(joint), point.confidence > GlobalSettings.getDefaultConfidence() else { continue }
+            points[joint] = point
+        }
+        
+        // Check if there are sufficient points
+        if points.count < calibrationJoints.count {
+            return false
+        }
+        standingKneeBendModel.currentAngleFrames += 1
+        if standingKneeBendModel.currentAngleFrames >= 180 {
+            standingKneeBendModel.currentAngleFrames = 0
+            return true
+        }
+        return false
+    }
+}
