@@ -10,9 +10,7 @@ import GameplayKit
 
 
 class Move: GKStateMachine, ObservableObject {
-    
-    // Variables that needs to be initialised by the exercise model
-    
+
     /**
      Move unique ID.
      
