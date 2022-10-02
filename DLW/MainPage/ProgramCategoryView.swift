@@ -11,15 +11,12 @@ import SwiftUI
 struct ProgramCategoryView: View {
     var body: some View {
         VStack {
-            // Knee
             KneeCategoryView()
                 .padding(.bottom)
 
-            // Shoulder
             ShoulderCategoryView()
                 .padding(.bottom)
 
-            // Back
             BackCategoryView()
                 .padding(.bottom)
         }
@@ -52,7 +49,7 @@ struct KneeCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
-                            .padding(.top, 30)
+                            .padding(.top, 40)
                     }.padding()
                     
                     Spacer()
@@ -102,7 +99,7 @@ struct ShoulderCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
-                            .padding(.top, 30)
+                            .padding(.top, 40)
                     }.padding()
                 }
             }
@@ -137,7 +134,7 @@ struct BackCategoryView: View {
                             .foregroundColor(.black)
                             .frame(alignment: .leading)
                         Image("BlackStartButton")
-                            .padding(.top, 30)
+                            .padding(.top, 40)
                     }.padding()
                     
                     Spacer()

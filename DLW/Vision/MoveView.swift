@@ -231,67 +231,33 @@ struct MoveView: View {
             }
             var body: some View {
                 VStack {
-                    HStack {
-                        Spacer(minLength: 5)
+                    HStack(alignment: .center) {
+                        Text("Side Selected: ")
+                            .font(.system(size: 16))
+                        Text(sideText)
+                            .font(.system(size: 22))
+                            .fontWeight(.bold)
+                    }.padding(.bottom)
+                    
+                    HStack(alignment: .center) {
+                        Text("Sets Completed: ")
+                            .font(.system(size: 16))
+                        Text("\(completedSets)/\(totalSets)")
+                            .font(.system(size: 22))
+                            .fontWeight(.bold)
+                    }.padding(.bottom)
 
-                        VStack {
-                            VStack (alignment: .leading) {
-                                Text("Side Chosen")
-                                    .font(.system(size: 16))
-                                    .padding(.bottom)
-                                Text(sideText)
-                                    .font(.system(size: 22))
-                                    .fontWeight(.bold)
-                                    
-                            }
-                            .padding(5)
-                            .frame(width: 90, alignment: .leading)
-
-                        }
-                        .frame(width: 105, height: 105)
-                        .background(Color("Yellow2"))
-                        .cornerRadius(10)
-                        
-                        Spacer()
-                        
-                        VStack {
-                            VStack (alignment: .leading) {
-                                Text("Sets Completed")
-                                    .font(.system(size: 16))
-                                    .padding(.bottom)
-                                Text("\(completedSets)/\(totalSets)")
-                                    .font(.system(size: 22))
-                                    .fontWeight(.bold)
-                            }
-                            .padding(5)
-                            .frame(width: 90, alignment: .leading)
-                        }
-                        .frame(width: 105, height: 105)
-                        .background(Color("BlueGray"))
-                        .cornerRadius(10)
-
-                        Spacer()
-                        
-                        VStack {
-                            VStack (alignment: .leading) {
-                                Text("Reps Completed")
-                                    .font(.system(size: 16))
-                                    .padding(.bottom)
-                                Text("\(completedReps)/\(totalReps)")
-                                    .font(.system(size: 22))
-                                    .fontWeight(.bold)
-                            }
-                            .padding(5)
-                            .frame(width: 90, alignment: .leading)
-                            
-                        }
-                        .frame(width: 105, height: 105)
-                        .background(Color("Gray4"))
-                        .cornerRadius(10)
-                        
-                        Spacer(minLength: 5)
-                    }
+                    HStack(alignment: .center) {
+                        Text("Reps Completed: ")
+                            .font(.system(size: 16))
+                        Text("\(completedReps)/\(totalReps)")
+                            .font(.system(size: 22))
+                            .fontWeight(.bold)
+                    }.padding(.bottom)
                 }
+                .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
+                .padding(.vertical, 10)
+
             }
             return body
             }
@@ -330,34 +296,12 @@ struct MoveView: View {
     @ViewBuilder
     func getMove(id: Int) -> some View {
         switch(id) {
-        case BicepsFlexionModel().id:
-            BicepsFlexionView()
         case BandedRotationModel().id:
             BandedRotationView()
         case PosteriorCapsuleStretchModel().id:
             PosteriorCapsuleStretchView()
-        case ExternalRotationWithResistanceBandModel().id:
-            ExternalRotationWithResistanceBandView()
-        case InternalRotationWithResistanceBandModel().id:
-            InternalRotationWithResistanceBandView()
-        case ShoulderAbductionModel().id:
-            ShoulderAbductionView()
-        case ShoulderFlexionModel().id:
-            ShoulderFlexionView()
-        case ShoulderExtensionModel().id:
-            ShoulderExtensionView()
-        case ShoulderHorizontalAbductionModel().id:
-            ShoulderHorizontalAbductionView()
-        case PosteriorCapsuleStretchModel().id:
-            PosteriorCapsuleStretchView()
-        case ExternalRotationWithResistanceBandModel().id:
-            ExternalRotationWithResistanceBandView()
         case StandingKneeBendModel().id:
             StandingKneeBendView()
-        case AssistedKneeFlexionModel().id:
-            AssistedKneeFlexionView()
-        case AssistedKneeExtensionModel().id:
-            AssistedKneeExtensionView()
         default:
             PosteriorCapsuleStretchView()
         }

@@ -32,27 +32,6 @@
 		D01E1F5828E7E4CF008D373F /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F5728E7E4CF008D373F /* MoveView.swift */; };
 		D01E1F5A28E7E4E8008D373F /* MoveViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F5928E7E4E8008D373F /* MoveViewHelpers.swift */; };
 		D01E1F5C28E7E4F0008D373F /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F5B28E7E4F0008D373F /* Move.swift */; };
-		D01E1FAF28E7E5BF008D373F /* ShoulderFlexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F5F28E7E5BE008D373F /* ShoulderFlexionViewController.swift */; };
-		D01E1FB028E7E5BF008D373F /* ShoulderFlexionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6028E7E5BE008D373F /* ShoulderFlexionModel.swift */; };
-		D01E1FB128E7E5BF008D373F /* ShoulderFlexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6128E7E5BE008D373F /* ShoulderFlexionView.swift */; };
-		D01E1FB228E7E5BF008D373F /* ShoulderFlexionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6328E7E5BE008D373F /* ShoulderFlexionStartClassifier.swift */; };
-		D01E1FB328E7E5BF008D373F /* ShoulderFlexionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6428E7E5BE008D373F /* ShoulderFlexionRepetitionInProgressClassifier.swift */; };
-		D01E1FB428E7E5BF008D373F /* ShoulderFlexionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6528E7E5BE008D373F /* ShoulderFlexionInPositionClassifier.swift */; };
-		D01E1FB528E7E5BF008D373F /* ShoulderFlexionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6628E7E5BE008D373F /* ShoulderFlexionRepetitionClassifier.swift */; };
-		D01E1FB628E7E5BF008D373F /* ExternalRotationWithResistanceBandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6828E7E5BE008D373F /* ExternalRotationWithResistanceBandModel.swift */; };
-		D01E1FB728E7E5BF008D373F /* ExternalRotationWithResistanceBandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6928E7E5BE008D373F /* ExternalRotationWithResistanceBandView.swift */; };
-		D01E1FB828E7E5BF008D373F /* ExternalRotationWithResistanceBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6A28E7E5BE008D373F /* ExternalRotationWithResistanceBandViewController.swift */; };
-		D01E1FB928E7E5BF008D373F /* ExternalRotationWithResistanceBandRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6C28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionClassifier.swift */; };
-		D01E1FBA28E7E5BF008D373F /* ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6D28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */; };
-		D01E1FBB28E7E5BF008D373F /* ExternalRotationWithResistanceBandInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6E28E7E5BE008D373F /* ExternalRotationWithResistanceBandInPositionClassifier.swift */; };
-		D01E1FBC28E7E5BF008D373F /* ExternalRotationWithResistanceBandStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F6F28E7E5BE008D373F /* ExternalRotationWithResistanceBandStartClassifier.swift */; };
-		D01E1FBD28E7E5BF008D373F /* InternalRotationWithResistanceBandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7128E7E5BE008D373F /* InternalRotationWithResistanceBandModel.swift */; };
-		D01E1FBE28E7E5BF008D373F /* InternalRotationWithResistanceBandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7228E7E5BE008D373F /* InternalRotationWithResistanceBandView.swift */; };
-		D01E1FBF28E7E5BF008D373F /* InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7428E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */; };
-		D01E1FC028E7E5BF008D373F /* InternalRotationWithResistanceBandStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7528E7E5BE008D373F /* InternalRotationWithResistanceBandStartClassifier.swift */; };
-		D01E1FC128E7E5BF008D373F /* InternalRotationWithResistanceBandRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7628E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionClassifier.swift */; };
-		D01E1FC228E7E5BF008D373F /* InternalRotationWithResistanceBandInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7728E7E5BE008D373F /* InternalRotationWithResistanceBandInPositionClassifier.swift */; };
-		D01E1FC328E7E5BF008D373F /* InternalRotationWithResistanceBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7828E7E5BE008D373F /* InternalRotationWithResistanceBandViewController.swift */; };
 		D01E1FC428E7E5BF008D373F /* BandedRotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7A28E7E5BE008D373F /* BandedRotationModel.swift */; };
 		D01E1FC528E7E5BF008D373F /* BandedRotationStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7C28E7E5BE008D373F /* BandedRotationStartClassifier.swift */; };
 		D01E1FC628E7E5BF008D373F /* BandedRotationRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7D28E7E5BE008D373F /* BandedRotationRepetitionInProgressClassifier.swift */; };
@@ -60,13 +39,6 @@
 		D01E1FC828E7E5BF008D373F /* BandedRotationInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F7F28E7E5BE008D373F /* BandedRotationInPositionClassifier.swift */; };
 		D01E1FC928E7E5BF008D373F /* BandedRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8028E7E5BE008D373F /* BandedRotationView.swift */; };
 		D01E1FCA28E7E5BF008D373F /* BandedRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8128E7E5BE008D373F /* BandedRotationViewController.swift */; };
-		D01E1FCB28E7E5BF008D373F /* ShoulderAbductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8328E7E5BE008D373F /* ShoulderAbductionViewController.swift */; };
-		D01E1FCC28E7E5BF008D373F /* ShoulderAbductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8428E7E5BE008D373F /* ShoulderAbductionView.swift */; };
-		D01E1FCD28E7E5BF008D373F /* ShoulderAbductionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8528E7E5BE008D373F /* ShoulderAbductionModel.swift */; };
-		D01E1FCE28E7E5BF008D373F /* ShoulderAbductionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8728E7E5BE008D373F /* ShoulderAbductionStartClassifier.swift */; };
-		D01E1FCF28E7E5BF008D373F /* ShoulderAbductionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8828E7E5BE008D373F /* ShoulderAbductionInPositionClassifier.swift */; };
-		D01E1FD028E7E5BF008D373F /* ShoulderAbductionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8928E7E5BE008D373F /* ShoulderAbductionRepetitionClassifier.swift */; };
-		D01E1FD128E7E5BF008D373F /* ShoulderAbductionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8A28E7E5BE008D373F /* ShoulderAbductionRepetitionInProgressClassifier.swift */; };
 		D01E1FD228E7E5BF008D373F /* PosteriorCapsuleStretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8C28E7E5BE008D373F /* PosteriorCapsuleStretchView.swift */; };
 		D01E1FD328E7E5BF008D373F /* PosteriorCapsuleStretchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8D28E7E5BE008D373F /* PosteriorCapsuleStretchModel.swift */; };
 		D01E1FD428E7E5BF008D373F /* PosteriorCapsuleStretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F8E28E7E5BE008D373F /* PosteriorCapsuleStretchViewController.swift */; };
@@ -74,48 +46,6 @@
 		D01E1FD628E7E5BF008D373F /* PosteriorCapsuleStretchRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9128E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionClassifier.swift */; };
 		D01E1FD728E7E5BF008D373F /* PosteriorCapsuleStretchInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9228E7E5BE008D373F /* PosteriorCapsuleStretchInPositionClassifier.swift */; };
 		D01E1FD828E7E5BF008D373F /* PosteriorCapsuleStretchRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9328E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionInProgressClassifier.swift */; };
-		D01E1FD928E7E5BF008D373F /* ShoulderExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9528E7E5BF008D373F /* ShoulderExtensionView.swift */; };
-		D01E1FDA28E7E5BF008D373F /* ShoulderExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9628E7E5BF008D373F /* ShoulderExtensionViewController.swift */; };
-		D01E1FDB28E7E5BF008D373F /* ShoulderExtensionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9728E7E5BF008D373F /* ShoulderExtensionModel.swift */; };
-		D01E1FDC28E7E5BF008D373F /* ShoulderExtensionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9928E7E5BF008D373F /* ShoulderExtensionRepetitionInProgressClassifier.swift */; };
-		D01E1FDD28E7E5BF008D373F /* ShoulderExtensionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9A28E7E5BF008D373F /* ShoulderExtensionStartClassifier.swift */; };
-		D01E1FDE28E7E5BF008D373F /* ShoulderExtensionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9B28E7E5BF008D373F /* ShoulderExtensionRepetitionClassifier.swift */; };
-		D01E1FDF28E7E5BF008D373F /* ShoulderExtensionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9C28E7E5BF008D373F /* ShoulderExtensionInPositionClassifier.swift */; };
-		D01E1FE028E7E5BF008D373F /* ShoulderHorizontalAbductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9E28E7E5BF008D373F /* ShoulderHorizontalAbductionView.swift */; };
-		D01E1FE128E7E5BF008D373F /* ShoulderHorizontalAbductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1F9F28E7E5BF008D373F /* ShoulderHorizontalAbductionViewController.swift */; };
-		D01E1FE228E7E5BF008D373F /* ShoulderHorizontalAbductionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA128E7E5BF008D373F /* ShoulderHorizontalAbductionInPositionClassifier.swift */; };
-		D01E1FE328E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA228E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionClassifier.swift */; };
-		D01E1FE428E7E5BF008D373F /* ShoulderHorizontalAbductionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA328E7E5BF008D373F /* ShoulderHorizontalAbductionStartClassifier.swift */; };
-		D01E1FE528E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA428E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift */; };
-		D01E1FE628E7E5BF008D373F /* ShoulderHorizontalAbductionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA528E7E5BF008D373F /* ShoulderHorizontalAbductionModel.swift */; };
-		D01E1FE728E7E5BF008D373F /* BicepsFlexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA728E7E5BF008D373F /* BicepsFlexionView.swift */; };
-		D01E1FE828E7E5BF008D373F /* BicepsFlexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FA828E7E5BF008D373F /* BicepsFlexionViewController.swift */; };
-		D01E1FE928E7E5BF008D373F /* BicepsFlexionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FAA28E7E5BF008D373F /* BicepsFlexionRepetitionClassifier.swift */; };
-		D01E1FEA28E7E5BF008D373F /* BicepsFlexionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FAB28E7E5BF008D373F /* BicepsFlexionRepetitionInProgressClassifier.swift */; };
-		D01E1FEB28E7E5BF008D373F /* BicepsFlexionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FAC28E7E5BF008D373F /* BicepsFlexionInPositionClassifier.swift */; };
-		D01E1FEC28E7E5BF008D373F /* BicepsFlexionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FAD28E7E5BF008D373F /* BicepsFlexionStartClassifier.swift */; };
-		D01E1FED28E7E5BF008D373F /* BicepsFlexionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FAE28E7E5BF008D373F /* BicepsFlexionModel.swift */; };
-		D01E200928E7E6D5008D373F /* AssistedKneeExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FEF28E7E6D4008D373F /* AssistedKneeExtensionViewController.swift */; };
-		D01E200A28E7E6D5008D373F /* AssistedKneeExtensionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF028E7E6D4008D373F /* AssistedKneeExtensionModel.swift */; };
-		D01E200B28E7E6D5008D373F /* AssistedKneeExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF128E7E6D4008D373F /* AssistedKneeExtensionView.swift */; };
-		D01E200C28E7E6D5008D373F /* AssistedKneeExtensionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF328E7E6D4008D373F /* AssistedKneeExtensionStartClassifier.swift */; };
-		D01E200D28E7E6D5008D373F /* AssistedKneeExtensionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF428E7E6D4008D373F /* AssistedKneeExtensionInPositionClassifier.swift */; };
-		D01E200E28E7E6D5008D373F /* AssistedKneeExtensionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF528E7E6D4008D373F /* AssistedKneeExtensionRepetitionInProgressClassifier.swift */; };
-		D01E200F28E7E6D5008D373F /* AssistedKneeExtensionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF628E7E6D4008D373F /* AssistedKneeExtensionRepetitionClassifier.swift */; };
-		D01E201028E7E6D5008D373F /* AssistedKneeFlexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF828E7E6D4008D373F /* AssistedKneeFlexionViewController.swift */; };
-		D01E201128E7E6D5008D373F /* AssistedKneeFlexionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FF928E7E6D4008D373F /* AssistedKneeFlexionModel.swift */; };
-		D01E201228E7E6D5008D373F /* AssistedKneeFlexionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FFA28E7E6D4008D373F /* AssistedKneeFlexionView.swift */; };
-		D01E201328E7E6D5008D373F /* AssistedKneeFlexionInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FFC28E7E6D4008D373F /* AssistedKneeFlexionInPositionClassifier.swift */; };
-		D01E201428E7E6D5008D373F /* AssistedKneeFlexionRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FFD28E7E6D4008D373F /* AssistedKneeFlexionRepetitionClassifier.swift */; };
-		D01E201528E7E6D5008D373F /* AssistedKneeFlexionStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FFE28E7E6D4008D373F /* AssistedKneeFlexionStartClassifier.swift */; };
-		D01E201628E7E6D5008D373F /* AssistedKneeFlexionRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E1FFF28E7E6D4008D373F /* AssistedKneeFlexionRepetitionInProgressClassifier.swift */; };
-		D01E201728E7E6D5008D373F /* StandingKneeBendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200128E7E6D4008D373F /* StandingKneeBendView.swift */; };
-		D01E201828E7E6D5008D373F /* StandingKneeBendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200228E7E6D4008D373F /* StandingKneeBendViewController.swift */; };
-		D01E201928E7E6D5008D373F /* StandingKneeBendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200328E7E6D4008D373F /* StandingKneeBendModel.swift */; };
-		D01E201A28E7E6D5008D373F /* StandingKneeBendStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200528E7E6D4008D373F /* StandingKneeBendStartClassifier.swift */; };
-		D01E201B28E7E6D5008D373F /* StandingKneeBendRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200628E7E6D4008D373F /* StandingKneeBendRepetitionClassifier.swift */; };
-		D01E201C28E7E6D5008D373F /* StandingKneeBendInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200728E7E6D4008D373F /* StandingKneeBendInPositionClassifier.swift */; };
-		D01E201D28E7E6D5008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E200828E7E6D4008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift */; };
 		D01E202B28E7EA86008D373F /* KneeProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202A28E7EA86008D373F /* KneeProgramView.swift */; };
 		D01E202D28E7EA91008D373F /* KneeConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202C28E7EA91008D373F /* KneeConfirmView.swift */; };
 		D01E202F28E7EAE5008D373F /* KneeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E202E28E7EAE5008D373F /* KneeListView.swift */; };
@@ -123,6 +53,13 @@
 		D01E203428E7EBF5008D373F /* ShoulderConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E203328E7EBF5008D373F /* ShoulderConfirmView.swift */; };
 		D01E203628E7EBFF008D373F /* ShoulderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E203528E7EBFF008D373F /* ShoulderListView.swift */; };
 		D01E203928E7EFA7008D373F /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D01E203828E7EFA7008D373F /* ConfettiSwiftUI */; };
+		D02B1A1728E97D91002D0535 /* StandingKneeBendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A0F28E97D90002D0535 /* StandingKneeBendView.swift */; };
+		D02B1A1828E97D91002D0535 /* StandingKneeBendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1028E97D90002D0535 /* StandingKneeBendViewController.swift */; };
+		D02B1A1928E97D91002D0535 /* StandingKneeBendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1128E97D90002D0535 /* StandingKneeBendModel.swift */; };
+		D02B1A1A28E97D91002D0535 /* StandingKneeBendStartClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1328E97D90002D0535 /* StandingKneeBendStartClassifier.swift */; };
+		D02B1A1B28E97D91002D0535 /* StandingKneeBendRepetitionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1428E97D90002D0535 /* StandingKneeBendRepetitionClassifier.swift */; };
+		D02B1A1C28E97D91002D0535 /* StandingKneeBendInPositionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1528E97D90002D0535 /* StandingKneeBendInPositionClassifier.swift */; };
+		D02B1A1D28E97D91002D0535 /* StandingKneeBendRepetitionInProgressClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02B1A1628E97D90002D0535 /* StandingKneeBendRepetitionInProgressClassifier.swift */; };
 		D04F7B1028E8742600018A5D /* PosteriorCapsuleStretch-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0B28E8742500018A5D /* PosteriorCapsuleStretch-5.png */; };
 		D04F7B1128E8742600018A5D /* PosteriorCapsuleStretch-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0C28E8742600018A5D /* PosteriorCapsuleStretch-4.png */; };
 		D04F7B1228E8742600018A5D /* PosteriorCapsuleStretch-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D04F7B0D28E8742600018A5D /* PosteriorCapsuleStretch-2.png */; };
@@ -165,27 +102,6 @@
 		D01E1F5728E7E4CF008D373F /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
 		D01E1F5928E7E4E8008D373F /* MoveViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewHelpers.swift; sourceTree = "<group>"; };
 		D01E1F5B28E7E4F0008D373F /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
-		D01E1F5F28E7E5BE008D373F /* ShoulderFlexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionViewController.swift; sourceTree = "<group>"; };
-		D01E1F6028E7E5BE008D373F /* ShoulderFlexionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionModel.swift; sourceTree = "<group>"; };
-		D01E1F6128E7E5BE008D373F /* ShoulderFlexionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionView.swift; sourceTree = "<group>"; };
-		D01E1F6328E7E5BE008D373F /* ShoulderFlexionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6428E7E5BE008D373F /* ShoulderFlexionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6528E7E5BE008D373F /* ShoulderFlexionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6628E7E5BE008D373F /* ShoulderFlexionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderFlexionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6828E7E5BE008D373F /* ExternalRotationWithResistanceBandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandModel.swift; sourceTree = "<group>"; };
-		D01E1F6928E7E5BE008D373F /* ExternalRotationWithResistanceBandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandView.swift; sourceTree = "<group>"; };
-		D01E1F6A28E7E5BE008D373F /* ExternalRotationWithResistanceBandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandViewController.swift; sourceTree = "<group>"; };
-		D01E1F6C28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6D28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6E28E7E5BE008D373F /* ExternalRotationWithResistanceBandInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F6F28E7E5BE008D373F /* ExternalRotationWithResistanceBandStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalRotationWithResistanceBandStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1F7128E7E5BE008D373F /* InternalRotationWithResistanceBandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandModel.swift; sourceTree = "<group>"; };
-		D01E1F7228E7E5BE008D373F /* InternalRotationWithResistanceBandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandView.swift; sourceTree = "<group>"; };
-		D01E1F7428E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1F7528E7E5BE008D373F /* InternalRotationWithResistanceBandStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1F7628E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F7728E7E5BE008D373F /* InternalRotationWithResistanceBandInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F7828E7E5BE008D373F /* InternalRotationWithResistanceBandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalRotationWithResistanceBandViewController.swift; sourceTree = "<group>"; };
 		D01E1F7A28E7E5BE008D373F /* BandedRotationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationModel.swift; sourceTree = "<group>"; };
 		D01E1F7C28E7E5BE008D373F /* BandedRotationStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationStartClassifier.swift; sourceTree = "<group>"; };
 		D01E1F7D28E7E5BE008D373F /* BandedRotationRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
@@ -193,13 +109,6 @@
 		D01E1F7F28E7E5BE008D373F /* BandedRotationInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationInPositionClassifier.swift; sourceTree = "<group>"; };
 		D01E1F8028E7E5BE008D373F /* BandedRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationView.swift; sourceTree = "<group>"; };
 		D01E1F8128E7E5BE008D373F /* BandedRotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandedRotationViewController.swift; sourceTree = "<group>"; };
-		D01E1F8328E7E5BE008D373F /* ShoulderAbductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionViewController.swift; sourceTree = "<group>"; };
-		D01E1F8428E7E5BE008D373F /* ShoulderAbductionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionView.swift; sourceTree = "<group>"; };
-		D01E1F8528E7E5BE008D373F /* ShoulderAbductionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionModel.swift; sourceTree = "<group>"; };
-		D01E1F8728E7E5BE008D373F /* ShoulderAbductionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1F8828E7E5BE008D373F /* ShoulderAbductionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F8928E7E5BE008D373F /* ShoulderAbductionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F8A28E7E5BE008D373F /* ShoulderAbductionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderAbductionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
 		D01E1F8C28E7E5BE008D373F /* PosteriorCapsuleStretchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchView.swift; sourceTree = "<group>"; };
 		D01E1F8D28E7E5BE008D373F /* PosteriorCapsuleStretchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchModel.swift; sourceTree = "<group>"; };
 		D01E1F8E28E7E5BE008D373F /* PosteriorCapsuleStretchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchViewController.swift; sourceTree = "<group>"; };
@@ -207,54 +116,19 @@
 		D01E1F9128E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchRepetitionClassifier.swift; sourceTree = "<group>"; };
 		D01E1F9228E7E5BE008D373F /* PosteriorCapsuleStretchInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchInPositionClassifier.swift; sourceTree = "<group>"; };
 		D01E1F9328E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosteriorCapsuleStretchRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1F9528E7E5BF008D373F /* ShoulderExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionView.swift; sourceTree = "<group>"; };
-		D01E1F9628E7E5BF008D373F /* ShoulderExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionViewController.swift; sourceTree = "<group>"; };
-		D01E1F9728E7E5BF008D373F /* ShoulderExtensionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionModel.swift; sourceTree = "<group>"; };
-		D01E1F9928E7E5BF008D373F /* ShoulderExtensionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1F9A28E7E5BF008D373F /* ShoulderExtensionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1F9B28E7E5BF008D373F /* ShoulderExtensionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F9C28E7E5BF008D373F /* ShoulderExtensionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderExtensionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1F9E28E7E5BF008D373F /* ShoulderHorizontalAbductionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionView.swift; sourceTree = "<group>"; };
-		D01E1F9F28E7E5BF008D373F /* ShoulderHorizontalAbductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionViewController.swift; sourceTree = "<group>"; };
-		D01E1FA128E7E5BF008D373F /* ShoulderHorizontalAbductionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FA228E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FA328E7E5BF008D373F /* ShoulderHorizontalAbductionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1FA428E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1FA528E7E5BF008D373F /* ShoulderHorizontalAbductionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderHorizontalAbductionModel.swift; sourceTree = "<group>"; };
-		D01E1FA728E7E5BF008D373F /* BicepsFlexionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionView.swift; sourceTree = "<group>"; };
-		D01E1FA828E7E5BF008D373F /* BicepsFlexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionViewController.swift; sourceTree = "<group>"; };
-		D01E1FAA28E7E5BF008D373F /* BicepsFlexionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FAB28E7E5BF008D373F /* BicepsFlexionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1FAC28E7E5BF008D373F /* BicepsFlexionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FAD28E7E5BF008D373F /* BicepsFlexionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1FAE28E7E5BF008D373F /* BicepsFlexionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BicepsFlexionModel.swift; sourceTree = "<group>"; };
-		D01E1FEF28E7E6D4008D373F /* AssistedKneeExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionViewController.swift; sourceTree = "<group>"; };
-		D01E1FF028E7E6D4008D373F /* AssistedKneeExtensionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionModel.swift; sourceTree = "<group>"; };
-		D01E1FF128E7E6D4008D373F /* AssistedKneeExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionView.swift; sourceTree = "<group>"; };
-		D01E1FF328E7E6D4008D373F /* AssistedKneeExtensionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1FF428E7E6D4008D373F /* AssistedKneeExtensionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FF528E7E6D4008D373F /* AssistedKneeExtensionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E1FF628E7E6D4008D373F /* AssistedKneeExtensionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeExtensionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FF828E7E6D4008D373F /* AssistedKneeFlexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionViewController.swift; sourceTree = "<group>"; };
-		D01E1FF928E7E6D4008D373F /* AssistedKneeFlexionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionModel.swift; sourceTree = "<group>"; };
-		D01E1FFA28E7E6D4008D373F /* AssistedKneeFlexionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionView.swift; sourceTree = "<group>"; };
-		D01E1FFC28E7E6D4008D373F /* AssistedKneeFlexionInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FFD28E7E6D4008D373F /* AssistedKneeFlexionRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E1FFE28E7E6D4008D373F /* AssistedKneeFlexionStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionStartClassifier.swift; sourceTree = "<group>"; };
-		D01E1FFF28E7E6D4008D373F /* AssistedKneeFlexionRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistedKneeFlexionRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
-		D01E200128E7E6D4008D373F /* StandingKneeBendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendView.swift; sourceTree = "<group>"; };
-		D01E200228E7E6D4008D373F /* StandingKneeBendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendViewController.swift; sourceTree = "<group>"; };
-		D01E200328E7E6D4008D373F /* StandingKneeBendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendModel.swift; sourceTree = "<group>"; };
-		D01E200528E7E6D4008D373F /* StandingKneeBendStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendStartClassifier.swift; sourceTree = "<group>"; };
-		D01E200628E7E6D4008D373F /* StandingKneeBendRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionClassifier.swift; sourceTree = "<group>"; };
-		D01E200728E7E6D4008D373F /* StandingKneeBendInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendInPositionClassifier.swift; sourceTree = "<group>"; };
-		D01E200828E7E6D4008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
 		D01E202A28E7EA86008D373F /* KneeProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeProgramView.swift; sourceTree = "<group>"; };
 		D01E202C28E7EA91008D373F /* KneeConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeConfirmView.swift; sourceTree = "<group>"; };
 		D01E202E28E7EAE5008D373F /* KneeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneeListView.swift; sourceTree = "<group>"; };
 		D01E203128E7EBEE008D373F /* ShoulderProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderProgramView.swift; sourceTree = "<group>"; };
 		D01E203328E7EBF5008D373F /* ShoulderConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderConfirmView.swift; sourceTree = "<group>"; };
 		D01E203528E7EBFF008D373F /* ShoulderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderListView.swift; sourceTree = "<group>"; };
+		D02B1A0F28E97D90002D0535 /* StandingKneeBendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendView.swift; sourceTree = "<group>"; };
+		D02B1A1028E97D90002D0535 /* StandingKneeBendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendViewController.swift; sourceTree = "<group>"; };
+		D02B1A1128E97D90002D0535 /* StandingKneeBendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendModel.swift; sourceTree = "<group>"; };
+		D02B1A1328E97D90002D0535 /* StandingKneeBendStartClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendStartClassifier.swift; sourceTree = "<group>"; };
+		D02B1A1428E97D90002D0535 /* StandingKneeBendRepetitionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionClassifier.swift; sourceTree = "<group>"; };
+		D02B1A1528E97D90002D0535 /* StandingKneeBendInPositionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendInPositionClassifier.swift; sourceTree = "<group>"; };
+		D02B1A1628E97D90002D0535 /* StandingKneeBendRepetitionInProgressClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingKneeBendRepetitionInProgressClassifier.swift; sourceTree = "<group>"; };
 		D04F7B0B28E8742500018A5D /* PosteriorCapsuleStretch-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-5.png"; sourceTree = "<group>"; };
 		D04F7B0C28E8742600018A5D /* PosteriorCapsuleStretch-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-4.png"; sourceTree = "<group>"; };
 		D04F7B0D28E8742600018A5D /* PosteriorCapsuleStretch-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PosteriorCapsuleStretch-2.png"; sourceTree = "<group>"; };
@@ -347,86 +221,11 @@
 		D01E1F5D28E7E56E008D373F /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
-				D01E1FA628E7E5BF008D373F /* BicepsFlexion */,
 				D01E1F7928E7E5BE008D373F /* BandedRotation */,
+				D02B1A0E28E97D90002D0535 /* StandingKneeBend */,
 				D01E1F8B28E7E5BE008D373F /* PosteriorCapsuleStretch */,
-				D01E1F6728E7E5BE008D373F /* ExternalRotationWithResistanceBand */,
-				D01E1F7028E7E5BE008D373F /* InternalRotationWithResistanceBand */,
-				D01E1F8228E7E5BE008D373F /* ShoulderAbduction */,
-				D01E1F9428E7E5BF008D373F /* ShoulderExtension */,
-				D01E1F5E28E7E5BE008D373F /* ShoulderFlexion */,
-				D01E1F9D28E7E5BF008D373F /* ShoulderHorizontalAbduction */,
-				D01E200028E7E6D4008D373F /* StandingKneeBend */,
-				D01E1FEE28E7E6D4008D373F /* AssistedKneeExtension */,
-				D01E1FF728E7E6D4008D373F /* AssistedKneeFlexion */,
 			);
 			path = Exercises;
-			sourceTree = "<group>";
-		};
-		D01E1F5E28E7E5BE008D373F /* ShoulderFlexion */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F6228E7E5BE008D373F /* Classifiers */,
-				D01E1F6128E7E5BE008D373F /* ShoulderFlexionView.swift */,
-				D01E1F6028E7E5BE008D373F /* ShoulderFlexionModel.swift */,
-				D01E1F5F28E7E5BE008D373F /* ShoulderFlexionViewController.swift */,
-			);
-			path = ShoulderFlexion;
-			sourceTree = "<group>";
-		};
-		D01E1F6228E7E5BE008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F6328E7E5BE008D373F /* ShoulderFlexionStartClassifier.swift */,
-				D01E1F6428E7E5BE008D373F /* ShoulderFlexionRepetitionInProgressClassifier.swift */,
-				D01E1F6528E7E5BE008D373F /* ShoulderFlexionInPositionClassifier.swift */,
-				D01E1F6628E7E5BE008D373F /* ShoulderFlexionRepetitionClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1F6728E7E5BE008D373F /* ExternalRotationWithResistanceBand */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F6B28E7E5BE008D373F /* Classifiers */,
-				D01E1F6928E7E5BE008D373F /* ExternalRotationWithResistanceBandView.swift */,
-				D01E1F6828E7E5BE008D373F /* ExternalRotationWithResistanceBandModel.swift */,
-				D01E1F6A28E7E5BE008D373F /* ExternalRotationWithResistanceBandViewController.swift */,
-			);
-			path = ExternalRotationWithResistanceBand;
-			sourceTree = "<group>";
-		};
-		D01E1F6B28E7E5BE008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F6C28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionClassifier.swift */,
-				D01E1F6D28E7E5BE008D373F /* ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */,
-				D01E1F6E28E7E5BE008D373F /* ExternalRotationWithResistanceBandInPositionClassifier.swift */,
-				D01E1F6F28E7E5BE008D373F /* ExternalRotationWithResistanceBandStartClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1F7028E7E5BE008D373F /* InternalRotationWithResistanceBand */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F7328E7E5BE008D373F /* Classifiers */,
-				D01E1F7228E7E5BE008D373F /* InternalRotationWithResistanceBandView.swift */,
-				D01E1F7128E7E5BE008D373F /* InternalRotationWithResistanceBandModel.swift */,
-				D01E1F7828E7E5BE008D373F /* InternalRotationWithResistanceBandViewController.swift */,
-			);
-			path = InternalRotationWithResistanceBand;
-			sourceTree = "<group>";
-		};
-		D01E1F7328E7E5BE008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F7428E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift */,
-				D01E1F7528E7E5BE008D373F /* InternalRotationWithResistanceBandStartClassifier.swift */,
-				D01E1F7628E7E5BE008D373F /* InternalRotationWithResistanceBandRepetitionClassifier.swift */,
-				D01E1F7728E7E5BE008D373F /* InternalRotationWithResistanceBandInPositionClassifier.swift */,
-			);
-			path = Classifiers;
 			sourceTree = "<group>";
 		};
 		D01E1F7928E7E5BE008D373F /* BandedRotation */ = {
@@ -451,28 +250,6 @@
 			path = Classifier;
 			sourceTree = "<group>";
 		};
-		D01E1F8228E7E5BE008D373F /* ShoulderAbduction */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F8628E7E5BE008D373F /* Classifiers */,
-				D01E1F8428E7E5BE008D373F /* ShoulderAbductionView.swift */,
-				D01E1F8528E7E5BE008D373F /* ShoulderAbductionModel.swift */,
-				D01E1F8328E7E5BE008D373F /* ShoulderAbductionViewController.swift */,
-			);
-			path = ShoulderAbduction;
-			sourceTree = "<group>";
-		};
-		D01E1F8628E7E5BE008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F8728E7E5BE008D373F /* ShoulderAbductionStartClassifier.swift */,
-				D01E1F8828E7E5BE008D373F /* ShoulderAbductionInPositionClassifier.swift */,
-				D01E1F8928E7E5BE008D373F /* ShoulderAbductionRepetitionClassifier.swift */,
-				D01E1F8A28E7E5BE008D373F /* ShoulderAbductionRepetitionInProgressClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
 		D01E1F8B28E7E5BE008D373F /* PosteriorCapsuleStretch */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,141 +268,6 @@
 				D01E1F9128E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionClassifier.swift */,
 				D01E1F9228E7E5BE008D373F /* PosteriorCapsuleStretchInPositionClassifier.swift */,
 				D01E1F9328E7E5BE008D373F /* PosteriorCapsuleStretchRepetitionInProgressClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1F9428E7E5BF008D373F /* ShoulderExtension */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F9828E7E5BF008D373F /* Classifiers */,
-				D01E1F9528E7E5BF008D373F /* ShoulderExtensionView.swift */,
-				D01E1F9728E7E5BF008D373F /* ShoulderExtensionModel.swift */,
-				D01E1F9628E7E5BF008D373F /* ShoulderExtensionViewController.swift */,
-			);
-			path = ShoulderExtension;
-			sourceTree = "<group>";
-		};
-		D01E1F9828E7E5BF008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1F9928E7E5BF008D373F /* ShoulderExtensionRepetitionInProgressClassifier.swift */,
-				D01E1F9A28E7E5BF008D373F /* ShoulderExtensionStartClassifier.swift */,
-				D01E1F9B28E7E5BF008D373F /* ShoulderExtensionRepetitionClassifier.swift */,
-				D01E1F9C28E7E5BF008D373F /* ShoulderExtensionInPositionClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1F9D28E7E5BF008D373F /* ShoulderHorizontalAbduction */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FA028E7E5BF008D373F /* Classifiers */,
-				D01E1F9E28E7E5BF008D373F /* ShoulderHorizontalAbductionView.swift */,
-				D01E1FA528E7E5BF008D373F /* ShoulderHorizontalAbductionModel.swift */,
-				D01E1F9F28E7E5BF008D373F /* ShoulderHorizontalAbductionViewController.swift */,
-			);
-			path = ShoulderHorizontalAbduction;
-			sourceTree = "<group>";
-		};
-		D01E1FA028E7E5BF008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FA128E7E5BF008D373F /* ShoulderHorizontalAbductionInPositionClassifier.swift */,
-				D01E1FA228E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionClassifier.swift */,
-				D01E1FA328E7E5BF008D373F /* ShoulderHorizontalAbductionStartClassifier.swift */,
-				D01E1FA428E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1FA628E7E5BF008D373F /* BicepsFlexion */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FA928E7E5BF008D373F /* Classifiers */,
-				D01E1FA728E7E5BF008D373F /* BicepsFlexionView.swift */,
-				D01E1FAE28E7E5BF008D373F /* BicepsFlexionModel.swift */,
-				D01E1FA828E7E5BF008D373F /* BicepsFlexionViewController.swift */,
-			);
-			path = BicepsFlexion;
-			sourceTree = "<group>";
-		};
-		D01E1FA928E7E5BF008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FAA28E7E5BF008D373F /* BicepsFlexionRepetitionClassifier.swift */,
-				D01E1FAB28E7E5BF008D373F /* BicepsFlexionRepetitionInProgressClassifier.swift */,
-				D01E1FAC28E7E5BF008D373F /* BicepsFlexionInPositionClassifier.swift */,
-				D01E1FAD28E7E5BF008D373F /* BicepsFlexionStartClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1FEE28E7E6D4008D373F /* AssistedKneeExtension */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FF228E7E6D4008D373F /* Classifiers */,
-				D01E1FF128E7E6D4008D373F /* AssistedKneeExtensionView.swift */,
-				D01E1FF028E7E6D4008D373F /* AssistedKneeExtensionModel.swift */,
-				D01E1FEF28E7E6D4008D373F /* AssistedKneeExtensionViewController.swift */,
-			);
-			name = AssistedKneeExtension;
-			path = DLW/Vision/Exercises/AssistedKneeExtension;
-			sourceTree = SOURCE_ROOT;
-		};
-		D01E1FF228E7E6D4008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FF328E7E6D4008D373F /* AssistedKneeExtensionStartClassifier.swift */,
-				D01E1FF428E7E6D4008D373F /* AssistedKneeExtensionInPositionClassifier.swift */,
-				D01E1FF528E7E6D4008D373F /* AssistedKneeExtensionRepetitionInProgressClassifier.swift */,
-				D01E1FF628E7E6D4008D373F /* AssistedKneeExtensionRepetitionClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E1FF728E7E6D4008D373F /* AssistedKneeFlexion */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FFB28E7E6D4008D373F /* Classifiers */,
-				D01E1FFA28E7E6D4008D373F /* AssistedKneeFlexionView.swift */,
-				D01E1FF928E7E6D4008D373F /* AssistedKneeFlexionModel.swift */,
-				D01E1FF828E7E6D4008D373F /* AssistedKneeFlexionViewController.swift */,
-			);
-			name = AssistedKneeFlexion;
-			path = DLW/Vision/Exercises/AssistedKneeFlexion;
-			sourceTree = SOURCE_ROOT;
-		};
-		D01E1FFB28E7E6D4008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E1FFC28E7E6D4008D373F /* AssistedKneeFlexionInPositionClassifier.swift */,
-				D01E1FFD28E7E6D4008D373F /* AssistedKneeFlexionRepetitionClassifier.swift */,
-				D01E1FFE28E7E6D4008D373F /* AssistedKneeFlexionStartClassifier.swift */,
-				D01E1FFF28E7E6D4008D373F /* AssistedKneeFlexionRepetitionInProgressClassifier.swift */,
-			);
-			path = Classifiers;
-			sourceTree = "<group>";
-		};
-		D01E200028E7E6D4008D373F /* StandingKneeBend */ = {
-			isa = PBXGroup;
-			children = (
-				D01E200428E7E6D4008D373F /* Classifiers */,
-				D01E200128E7E6D4008D373F /* StandingKneeBendView.swift */,
-				D01E200328E7E6D4008D373F /* StandingKneeBendModel.swift */,
-				D01E200228E7E6D4008D373F /* StandingKneeBendViewController.swift */,
-			);
-			name = StandingKneeBend;
-			path = DLW/Vision/Exercises/StandingKneeBend;
-			sourceTree = SOURCE_ROOT;
-		};
-		D01E200428E7E6D4008D373F /* Classifiers */ = {
-			isa = PBXGroup;
-			children = (
-				D01E200528E7E6D4008D373F /* StandingKneeBendStartClassifier.swift */,
-				D01E200628E7E6D4008D373F /* StandingKneeBendRepetitionClassifier.swift */,
-				D01E200728E7E6D4008D373F /* StandingKneeBendInPositionClassifier.swift */,
-				D01E200828E7E6D4008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift */,
 			);
 			path = Classifiers;
 			sourceTree = "<group>";
@@ -677,6 +319,28 @@
 				D01E203528E7EBFF008D373F /* ShoulderListView.swift */,
 			);
 			path = Shoulder;
+			sourceTree = "<group>";
+		};
+		D02B1A0E28E97D90002D0535 /* StandingKneeBend */ = {
+			isa = PBXGroup;
+			children = (
+				D02B1A0F28E97D90002D0535 /* StandingKneeBendView.swift */,
+				D02B1A1028E97D90002D0535 /* StandingKneeBendViewController.swift */,
+				D02B1A1128E97D90002D0535 /* StandingKneeBendModel.swift */,
+				D02B1A1228E97D90002D0535 /* Classifiers */,
+			);
+			path = StandingKneeBend;
+			sourceTree = "<group>";
+		};
+		D02B1A1228E97D90002D0535 /* Classifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D02B1A1328E97D90002D0535 /* StandingKneeBendStartClassifier.swift */,
+				D02B1A1428E97D90002D0535 /* StandingKneeBendRepetitionClassifier.swift */,
+				D02B1A1528E97D90002D0535 /* StandingKneeBendInPositionClassifier.swift */,
+				D02B1A1628E97D90002D0535 /* StandingKneeBendRepetitionInProgressClassifier.swift */,
+			);
+			path = Classifiers;
 			sourceTree = "<group>";
 		};
 		D05D308628E8A03300D4F2D6 /* Audio */ = {
@@ -904,120 +568,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01E1FC928E7E5BF008D373F /* BandedRotationView.swift in Sources */,
+				D02B1A1B28E97D91002D0535 /* StandingKneeBendRepetitionClassifier.swift in Sources */,
+				D02B1A1A28E97D91002D0535 /* StandingKneeBendStartClassifier.swift in Sources */,
 				D00DFCE328E71D5F009C3C51 /* UserViewController.swift in Sources */,
-				D01E1FB328E7E5BF008D373F /* ShoulderFlexionRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FB828E7E5BF008D373F /* ExternalRotationWithResistanceBandViewController.swift in Sources */,
-				D01E1FCF28E7E5BF008D373F /* ShoulderAbductionInPositionClassifier.swift in Sources */,
-				D01E1FBE28E7E5BF008D373F /* InternalRotationWithResistanceBandView.swift in Sources */,
 				D01E1FC828E7E5BF008D373F /* BandedRotationInPositionClassifier.swift in Sources */,
-				D01E1FEA28E7E5BF008D373F /* BicepsFlexionRepetitionInProgressClassifier.swift in Sources */,
 				D01E1F5528E7E3B3008D373F /* Constants.swift in Sources */,
-				D01E1FCD28E7E5BF008D373F /* ShoulderAbductionModel.swift in Sources */,
 				D01E1FCA28E7E5BF008D373F /* BandedRotationViewController.swift in Sources */,
-				D01E1FB928E7E5BF008D373F /* ExternalRotationWithResistanceBandRepetitionClassifier.swift in Sources */,
 				D01E1FD528E7E5BF008D373F /* PosteriorCapsuleStretchStartClassifier.swift in Sources */,
-				D01E1FDE28E7E5BF008D373F /* ShoulderExtensionRepetitionClassifier.swift in Sources */,
 				D00DFCDF28E719A7009C3C51 /* SignInFormView.swift in Sources */,
 				D01E1FC528E7E5BF008D373F /* BandedRotationStartClassifier.swift in Sources */,
 				D01ABA3928E76848005B6D3B /* DefaultSetting.swift in Sources */,
-				D01E1FDB28E7E5BF008D373F /* ShoulderExtensionModel.swift in Sources */,
-				D01E1FE228E7E5BF008D373F /* ShoulderHorizontalAbductionInPositionClassifier.swift in Sources */,
-				D01E1FBF28E7E5BF008D373F /* InternalRotationWithResistanceBandRepetitionInProgressClassifier.swift in Sources */,
-				D01E201B28E7E6D5008D373F /* StandingKneeBendRepetitionClassifier.swift in Sources */,
 				D00DFCE528E71F47009C3C51 /* Credentials.swift in Sources */,
-				D01E1FD028E7E5BF008D373F /* ShoulderAbductionRepetitionClassifier.swift in Sources */,
-				D01E1FBD28E7E5BF008D373F /* InternalRotationWithResistanceBandModel.swift in Sources */,
-				D01E201228E7E6D5008D373F /* AssistedKneeFlexionView.swift in Sources */,
-				D01E201928E7E6D5008D373F /* StandingKneeBendModel.swift in Sources */,
 				D01E1FD428E7E5BF008D373F /* PosteriorCapsuleStretchViewController.swift in Sources */,
 				D01E203428E7EBF5008D373F /* ShoulderConfirmView.swift in Sources */,
-				D01E1FE528E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionInProgressClassifier.swift in Sources */,
-				D01E201028E7E6D5008D373F /* AssistedKneeFlexionViewController.swift in Sources */,
 				D01E1F5A28E7E4E8008D373F /* MoveViewHelpers.swift in Sources */,
 				D01E1FC728E7E5BF008D373F /* BandedRotationRepetitionClassifier.swift in Sources */,
 				D01E1FD728E7E5BF008D373F /* PosteriorCapsuleStretchInPositionClassifier.swift in Sources */,
-				D01E1FB528E7E5BF008D373F /* ShoulderFlexionRepetitionClassifier.swift in Sources */,
-				D01E1FE728E7E5BF008D373F /* BicepsFlexionView.swift in Sources */,
-				D01E1FD928E7E5BF008D373F /* ShoulderExtensionView.swift in Sources */,
 				D01E1F4D28E7E341008D373F /* Commons.swift in Sources */,
-				D01E1FBB28E7E5BF008D373F /* ExternalRotationWithResistanceBandInPositionClassifier.swift in Sources */,
 				D01E1FD228E7E5BF008D373F /* PosteriorCapsuleStretchView.swift in Sources */,
-				D01E1FB728E7E5BF008D373F /* ExternalRotationWithResistanceBandView.swift in Sources */,
 				D01E1FD328E7E5BF008D373F /* PosteriorCapsuleStretchModel.swift in Sources */,
-				D01E200D28E7E6D5008D373F /* AssistedKneeExtensionInPositionClassifier.swift in Sources */,
-				D01E200A28E7E6D5008D373F /* AssistedKneeExtensionModel.swift in Sources */,
+				D02B1A1728E97D91002D0535 /* StandingKneeBendView.swift in Sources */,
 				D01E1FD828E7E5BF008D373F /* PosteriorCapsuleStretchRepetitionInProgressClassifier.swift in Sources */,
 				D01E1F4728E7E242008D373F /* HomepageModel.swift in Sources */,
-				D01E201628E7E6D5008D373F /* AssistedKneeFlexionRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FE428E7E5BF008D373F /* ShoulderHorizontalAbductionStartClassifier.swift in Sources */,
-				D01E201C28E7E6D5008D373F /* StandingKneeBendInPositionClassifier.swift in Sources */,
-				D01E1FE128E7E5BF008D373F /* ShoulderHorizontalAbductionViewController.swift in Sources */,
 				D01E1F4928E7E2A0008D373F /* HomepageHelper.swift in Sources */,
 				D00DFCD628E71772009C3C51 /* SignInView.swift in Sources */,
-				D01E1FB028E7E5BF008D373F /* ShoulderFlexionModel.swift in Sources */,
-				D01E201D28E7E6D5008D373F /* StandingKneeBendRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FB228E7E5BF008D373F /* ShoulderFlexionStartClassifier.swift in Sources */,
-				D01E1FDF28E7E5BF008D373F /* ShoulderExtensionInPositionClassifier.swift in Sources */,
 				D01E1F4328E7E1CC008D373F /* ProgramCategoryView.swift in Sources */,
-				D01E1FCE28E7E5BF008D373F /* ShoulderAbductionStartClassifier.swift in Sources */,
 				D072418D28E29A7C000A6B45 /* DLWApp.swift in Sources */,
 				D01E1F5828E7E4CF008D373F /* MoveView.swift in Sources */,
+				D02B1A1C28E97D91002D0535 /* StandingKneeBendInPositionClassifier.swift in Sources */,
 				D00DFCD828E717F2009C3C51 /* Authentication.swift in Sources */,
+				D02B1A1928E97D91002D0535 /* StandingKneeBendModel.swift in Sources */,
 				D00DFCE128E719B7009C3C51 /* UserModel.swift in Sources */,
-				D01E201A28E7E6D5008D373F /* StandingKneeBendStartClassifier.swift in Sources */,
-				D01E201128E7E6D5008D373F /* AssistedKneeFlexionModel.swift in Sources */,
 				D01E1F5C28E7E4F0008D373F /* Move.swift in Sources */,
-				D01E1FBA28E7E5BF008D373F /* ExternalRotationWithResistanceBandRepetitionInProgressClassifier.swift in Sources */,
 				D01ABA3328E7366F005B6D3B /* Components.swift in Sources */,
-				D01E1FB128E7E5BF008D373F /* ShoulderFlexionView.swift in Sources */,
-				D01E1FC128E7E5BF008D373F /* InternalRotationWithResistanceBandRepetitionClassifier.swift in Sources */,
-				D01E1FE028E7E5BF008D373F /* ShoulderHorizontalAbductionView.swift in Sources */,
 				D01E203628E7EBFF008D373F /* ShoulderListView.swift in Sources */,
-				D01E1FDC28E7E5BF008D373F /* ShoulderExtensionRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FE828E7E5BF008D373F /* BicepsFlexionViewController.swift in Sources */,
 				D01ABA3128E7361F005B6D3B /* SignUpView.swift in Sources */,
-				D01E1FB428E7E5BF008D373F /* ShoulderFlexionInPositionClassifier.swift in Sources */,
 				D01E1F4B28E7E328008D373F /* VisionHelper.swift in Sources */,
-				D01E1FC228E7E5BF008D373F /* InternalRotationWithResistanceBandInPositionClassifier.swift in Sources */,
-				D01E200928E7E6D5008D373F /* AssistedKneeExtensionViewController.swift in Sources */,
 				D01E1FC428E7E5BF008D373F /* BandedRotationModel.swift in Sources */,
 				D01E1F5328E7E399008D373F /* AudioManager.swift in Sources */,
-				D01E1FCB28E7E5BF008D373F /* ShoulderAbductionViewController.swift in Sources */,
 				D01E1F4F28E7E363008D373F /* Classifier.swift in Sources */,
-				D01E1FCC28E7E5BF008D373F /* ShoulderAbductionView.swift in Sources */,
-				D01E1FEB28E7E5BF008D373F /* BicepsFlexionInPositionClassifier.swift in Sources */,
-				D01E1FE328E7E5BF008D373F /* ShoulderHorizontalAbductionRepetitionClassifier.swift in Sources */,
-				D01E201528E7E6D5008D373F /* AssistedKneeFlexionStartClassifier.swift in Sources */,
 				D01E1FC628E7E5BF008D373F /* BandedRotationRepetitionInProgressClassifier.swift in Sources */,
-				D01E200B28E7E6D5008D373F /* AssistedKneeExtensionView.swift in Sources */,
-				D01E201328E7E6D5008D373F /* AssistedKneeFlexionInPositionClassifier.swift in Sources */,
-				D01E1FE928E7E5BF008D373F /* BicepsFlexionRepetitionClassifier.swift in Sources */,
-				D01E201728E7E6D5008D373F /* StandingKneeBendView.swift in Sources */,
 				D01ABA3628E736B3005B6D3B /* HomepageView.swift in Sources */,
-				D01E200F28E7E6D5008D373F /* AssistedKneeExtensionRepetitionClassifier.swift in Sources */,
+				D02B1A1828E97D91002D0535 /* StandingKneeBendViewController.swift in Sources */,
 				D01E202B28E7EA86008D373F /* KneeProgramView.swift in Sources */,
 				D01E202D28E7EA91008D373F /* KneeConfirmView.swift in Sources */,
-				D01E1FEC28E7E5BF008D373F /* BicepsFlexionStartClassifier.swift in Sources */,
-				D01E1FC028E7E5BF008D373F /* InternalRotationWithResistanceBandStartClassifier.swift in Sources */,
-				D01E1FC328E7E5BF008D373F /* InternalRotationWithResistanceBandViewController.swift in Sources */,
-				D01E200E28E7E6D5008D373F /* AssistedKneeExtensionRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FAF28E7E5BF008D373F /* ShoulderFlexionViewController.swift in Sources */,
-				D01E200C28E7E6D5008D373F /* AssistedKneeExtensionStartClassifier.swift in Sources */,
-				D01E201428E7E6D5008D373F /* AssistedKneeFlexionRepetitionClassifier.swift in Sources */,
-				D01E1FDD28E7E5BF008D373F /* ShoulderExtensionStartClassifier.swift in Sources */,
-				D01E1FBC28E7E5BF008D373F /* ExternalRotationWithResistanceBandStartClassifier.swift in Sources */,
-				D01E1FED28E7E5BF008D373F /* BicepsFlexionModel.swift in Sources */,
 				D01E1FD628E7E5BF008D373F /* PosteriorCapsuleStretchRepetitionClassifier.swift in Sources */,
 				D01E202F28E7EAE5008D373F /* KneeListView.swift in Sources */,
-				D01E1FD128E7E5BF008D373F /* ShoulderAbductionRepetitionInProgressClassifier.swift in Sources */,
-				D01E1FE628E7E5BF008D373F /* ShoulderHorizontalAbductionModel.swift in Sources */,
-				D01E201828E7E6D5008D373F /* StandingKneeBendViewController.swift in Sources */,
+				D02B1A1D28E97D91002D0535 /* StandingKneeBendRepetitionInProgressClassifier.swift in Sources */,
 				D01E203228E7EBEE008D373F /* ShoulderProgramView.swift in Sources */,
 				D01E1F4528E7E1F8008D373F /* ProfileView.swift in Sources */,
 				D01E1F5128E7E387008D373F /* ObservationHelpers.swift in Sources */,
 				D00DFCDB28E7194D009C3C51 /* Extensions.swift in Sources */,
-				D01E1FB628E7E5BF008D373F /* ExternalRotationWithResistanceBandModel.swift in Sources */,
-				D01E1FDA28E7E5BF008D373F /* ShoulderExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

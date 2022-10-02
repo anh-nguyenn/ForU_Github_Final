@@ -55,19 +55,6 @@ struct HomepageView: View {
                                 .foregroundColor(Color("Blue1"))
                             
                             ScrollView {
-                                VStack(alignment: .leading) {
-                                    Text("Explore")
-                                        .font(.system(size: 36))
-                                        .fontWeight(.bold)
-                                        .foregroundColor(Color("Black1"))
-                                        .frame(width: UIScreen.main.bounds.width - 50, height: 44, alignment: .leading)
-                                        .padding(.bottom, 5)
-                                    Text("Click to release your pain")
-                                        .font(.system(size: 14))
-                                        .frame(width: UIScreen.main.bounds.width - 50, height: 16, alignment: .leading)
-                                        .foregroundColor(Color("Gray1"))
-                                }.padding()
-                                
                                 ProgramCategoryView()
                             }
                             
@@ -77,7 +64,6 @@ struct HomepageView: View {
                                     .font(.system(size: 22))
                                     .fontWeight(.medium)
                                     .foregroundColor(Color("Black1"))
-//                                    .frame(width: UIScreen.main.bounds.width - 50, height: 19, alignment: .center)
                                     .padding()
                                 
                                 Spacer()

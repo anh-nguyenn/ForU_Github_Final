@@ -40,25 +40,30 @@ func vasScaleImage() -> some View {
     let percentageCompleted : Float = Float(Move.finishedReps / Move.totalReps)
     let category : Int = percentageCompleted > 0.8 ? 1 : percentageCompleted > 0.6 ? 2 : percentageCompleted > 0.4 ? 3 : percentageCompleted > 0.2 ? 4 : 5
     var feedback : String = ""
+    var flag: Bool = false
     switch(category) {
     case 1:
-        feedback = "Great job! You have over 80% completed repetitions!"
+        feedback = "Excellent!"
+        flag = true
     case 2:
-        feedback = "Good job! You have over 60% completed repetitions!"
+        feedback = "Very good!"
+        flag = true
     case 3:
-        feedback = "You have over 40% completed repetitions!"
+        feedback = "Try a bit more!"
     case 4:
-        feedback = "You have less than 40% completed repetitions, try harder next time!"
+        feedback = "Try harder next time!"
     case 5:
-        feedback = "You have less than 20% completed repetitions, try harder next time!"
+        feedback = "Try harder next time!"
     default:
         feedback = ""
     }
     
     let body: some View = VStack {
         Text(feedback)
-            .font(.system(size: 16))
+            .font(.system(size: 18))
+            .fontWeight(.semibold)
             .padding(.horizontal)
+            .foregroundColor(flag == true ? .green : .red)
     }
         .padding(.horizontal)
     return body
@@ -106,11 +111,6 @@ func BottomInstructionsView(text: String, move: Move, remainingSets:Int, remaini
         .padding()
     }
     .padding(.bottom)
-    .overlay(alignment: .topTrailing) {
-        GifView(image: move.smallImage)
-            .frame(minWidth: 0, maxWidth: 100, minHeight: 0, maxHeight: 100)
-            .cornerRadius(5)
-    }
     return body
 }
 
@@ -163,12 +163,6 @@ func BottomCountDownView(text: String, move: Move, remainingDuration:Float, rema
         .padding()
     }
     .padding(.bottom)
-    .overlay(alignment: .topTrailing) {
-        GifView(image: move.smallImage)
-            .frame(minWidth: 0, maxWidth: 100, minHeight: 0, maxHeight: 100)
-            .cornerRadius(5)
-    }
-        
     return body
 }
 
@@ -188,7 +182,7 @@ func PreMoveInstructonView(move: Move) -> some View {
                     Text("Starting in")
                         .font(.system(size:16))
                         .fontWeight(.medium)
-                    Text( "00:0" + String(Int(move.getShared().transitionTimer + 1)))
+                    Text( "00:0" + String(Int(move.getShared().transitionTimer)))
                         .font(.system(size:36))
                         .fontWeight(.bold)
                 }

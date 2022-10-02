@@ -24,21 +24,21 @@ struct KneeConfirmView: View {
                             Button {
                                 presentationMode.wrappedValue.dismiss()
                             } label: {
-                                Image("WhiteBackButton")
+                                Image("BackButton")
                             }
                             .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
                             
                             Text("Knee")
                                 .font(.system(size: 36))
                                 .fontWeight(.semibold)
-                                .foregroundColor(.white)
+                                .foregroundColor(.black)
                                 .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
                                 .padding(.bottom)
 
                             HStack {
                                 Text("Each program targets specific muscle areas")
                                     .font(.system(size: 18))
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.black)
                                     .frame(width: UIScreen.main.bounds.width / 2 , alignment: .leading)
                                     .padding(.horizontal)
                                 Spacer()
@@ -76,21 +76,14 @@ struct KneeConfirmView: View {
                     .background(Color("Blue1"))
                     
                     ScrollView {
-                        VStack {
-                            Text("A light exercise focused mostly on knee muscles to relieve pain and strengthen your knee sustainably.")
-                                .font(.system(size: 18))
-                                .foregroundColor(Color("Black1"))
-                                .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
-                        }
-                        .padding()
+                        
                         VStack {
                             Text("Exercises")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color("Black1"))
                                 .frame(width: UIScreen.main.bounds.width - 50, alignment: .leading)
-                        }
-                        .padding()
+                        }.padding()
                     
                         ForEach(movesChosen) { move in
                                 KneeRow(data: move)

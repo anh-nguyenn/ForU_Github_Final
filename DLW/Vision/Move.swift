@@ -53,7 +53,7 @@ class Move: GKStateMachine, ObservableObject {
     
     static let instructionImageDimension = getWindowWidth() * 0.40
     
-    static let transitionTime: Float = 3
+    static let transitionTime: Float = 2
     
     @Published var instructed: Bool = false
     

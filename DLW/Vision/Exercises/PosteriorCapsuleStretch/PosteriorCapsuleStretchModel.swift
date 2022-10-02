@@ -67,7 +67,7 @@ class PosteriorCapsuleStretchModel: Move {
             states: states,
             thisId: 3,
             thisName: "Posterior Capsule Stretch",
-            thisType: 1,
+            thisType: 0,
             thisImage: gifImages,
             totalSets: PosteriorCapsuleStretchModel.sets,
             totalRepetitions: (PosteriorCapsuleStretchModel.repetitions * PosteriorCapsuleStretchModel.sets),

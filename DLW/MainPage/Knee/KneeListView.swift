@@ -38,16 +38,16 @@ struct KneeListView: View {
     
     let kneeList: [Move]  = [
         StandingKneeBendModel(),
-        AssistedKneeFlexionModel(),
-        AssistedKneeExtensionModel()
+        BandedRotationModel(),
+        PosteriorCapsuleStretchModel(),
     ]
 
     
     struct MoveAddRow: View {
         
         @State var selection: Int? = nil
-        @State var side: Move.Side? = nil
-        @State var sideText: String = ""
+        @State var side: Move.Side? = .right
+        @State var sideText: String = "Right"
         var placeholder: String = "Select Side"
         var move: Move
         var dropdownListTypeOne: [String] = ["Left", "Right", "Both"]
@@ -110,26 +110,26 @@ struct KneeListView: View {
                                         self.side = .both
                                         break
                                     default:
-                                        self.sideText = side
-                                        self.side = nil
+                                        self.sideText = "Right"
+                                        self.side = .right
                                         break
                                     }
                                 }
                             }
                         } label: {
-                            VStack(spacing: 5) {
-                                HStack {
-                                    Text(side == nil ? placeholder : self.sideText)
-                                        .foregroundColor(side == nil ? .gray : .black)
-                                    Spacer()
-                                    Image(systemName: "chevron.down")
-                                                           .foregroundColor(Color("Blue1"))
-                                                           .font(Font.system(size: 16, weight: .bold))
-                                }
-                                Rectangle()
-                                    .fill(Color("Blue1"))
-                                    .frame(height: 2)
-                            }.padding(.top)
+//                            VStack(spacing: 5) {
+//                                HStack {
+//                                    Text(side == nil ? placeholder : self.sideText)
+//                                        .foregroundColor(side == nil ? .gray : .black)
+//                                    Spacer()
+//                                    Image(systemName: "chevron.down")
+//                                                           .foregroundColor(Color("Blue1"))
+//                                                           .font(Font.system(size: 16, weight: .bold))
+//                                }
+//                                Rectangle()
+//                                    .fill(Color("Blue1"))
+//                                    .frame(height: 2)
+//                            }.padding(.top)
                         }
                     }
                     if move.type == 2 {
