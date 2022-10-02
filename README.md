@@ -1,4 +1,4 @@
-# DLW-ForU
+# Frontend-ForU
 
 ForU is a iOS application that conducts and guides users through various exercises. It relies on the camera of the mobile device to track the position of the user and uses text cues as well as visual prompts to guide the user.
 
